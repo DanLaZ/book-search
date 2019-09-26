@@ -12,8 +12,8 @@ function NavBar() {
       
       <ul>
         <Link id="logo" to="/">Dan's Book Search</Link>
-        <Link className="search-link" to="/search"><img src="/images/cloud-icon.png" alt="a png of a cloud"id="cloud-1-style"/> </Link>
-        <Link className="saved-link" to="/saved"><img src="/images/cloud-icon.png" alt="a png of a cloud"id="cloud-1-style"/></Link>
+        <Link className="search-link" to="/search"><img src="/images/cloud-icon.png" alt="a png of a cloud"id="cloud-1-style"/>serach</Link>
+        <Link className="saved-link" to="/saved"><img src="/images/cloud-icon.png" alt="a png of a cloud"id="cloud-1-style"/>saved</Link>
       </ul>
       
     </div> 
