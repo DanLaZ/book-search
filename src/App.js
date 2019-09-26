@@ -4,7 +4,7 @@ import './App.css';
 
 //Pages
 import searchPage from './pages/search';
-import savedBooks from './pages/saved';
+// import savedBooks from './pages/saved';
 import test from './pages/test';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Route exact path="/" component={searchPage} />
       <Route exact path="/search" component={searchPage} />
-      <Route exact path="/saved" component={savedBooks} />
+      <Route exact path="/saved" component={test} />
       <Route exact path="/test" component={test} />
     </Router>
   );
