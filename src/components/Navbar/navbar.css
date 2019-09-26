@@ -1,0 +1,45 @@
+.navbar {
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(25, 23, 23));
+    border: 5px solid black;
+}
+
+.navbar a {
+    float: left; 
+    font-size: 20px;
+    font-weight: 100px;
+    color:#FEDC6F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;  
+    text-shadow: 2px 2px rgba(25, 23, 23, 0.5);  
+}
+
+#cloud-1-style {
+    width: 175px;
+    height: 175px;
+    
+}
+
+/* #search-link {
+    background-image: url("/images/cloud-icon.png");
+} */
+
+.navbar a#nav-left {
+    float: left;
+    color:#E45443;
+}
+
+.navbar.right-nav a#img{
+    height: 10px;
+  
+}

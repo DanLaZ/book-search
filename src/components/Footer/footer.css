@@ -1,0 +1,12 @@
+#footer {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(25, 23, 23));
+    border: 5px solid black;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
